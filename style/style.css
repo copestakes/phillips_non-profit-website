@@ -6,6 +6,8 @@
 
 *, *::before, *::after{
   box-sizing: border-box;
+  margin: 0;
+  padding: 0;
 }
 
 body{
@@ -13,6 +15,10 @@ body{
   background: #222;
   font-family: 'Oswald', sans-serif;
   font-weight:400;
+}
+
+h1 {
+  padding-top: 30px;
 }
 
 /*  Nav bar */
@@ -133,7 +139,7 @@ nav-toggle-label span,
    background-size: cover;  
  }
 
-@media screen and (min-width:800px ){
+@media screen and (min-width:800px ) {
   .nav-toggle-label{
     display:none;
   } 
@@ -186,14 +192,6 @@ nav-toggle-label span,
     transform:scale(1,1);
   }  
  
-  /* .wrapper {
-    width: 70%;
-    margin: 0 auto;
-    padding: 25px;
-    display: flex;
-    grid-template-columns: 1fr 1fr 1fr;
- } 
-*/
 
 .box-container{
   width: 100% ;
@@ -201,14 +199,13 @@ nav-toggle-label span,
  
 /*  essential code */
 
-
 img {
-  max-width:80%;
-  height:auto;
-}
+  width: 80%;
+ }
 
 .box{
 padding: 20px 20px 9px; 
+width: 30%;
 }
 
 section {
@@ -216,12 +213,19 @@ padding-top: 0px 20px 10px 10px;
 background-color:#D5941A ;
 text-align: center ;
 }
+
+.container-black {
+  background: black;
+  color: white;
+}
+
 .wrapper {
   width: 70%;
   margin: 0 auto;
   padding: 25px;
   display: flex;
-  grid-template-columns: 1fr 1fr 1fr;
+  justify-content: center;
+}
 
 
 
@@ -252,11 +256,12 @@ text-align: center ;
 
 /*  News card */
 
+/*
 .container{
   display: flex;
   justify-content: space-around;
   
-}
+}*/
 
 .card {
   width: 300px;
@@ -306,7 +311,7 @@ p {
   color: lightblue;
 }
 
-*/ 
+
 
 /*  News card */
 
@@ -371,7 +376,7 @@ p {
   width: 100%;
 }
 
-
+}
 
 
 
